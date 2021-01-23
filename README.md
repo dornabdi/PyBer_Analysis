@@ -1,7 +1,7 @@
 # PyBer_Analysis
 
 ## Overview of Analysis
-This assignment analyzed ride-sharing data to find trends and averages in ride fare between city type. The city types considered were urban, suburan, and rural. We created a summary DataFrame comparing total fares for each city type. Then we constructed a line chart to visualize total weekly ride fares between the city types. 
+This assignment analyzed ride-sharing data to find trends and disparities in ride fare between city type. The city types considered were urban, suburan, and rural. We created a summary DataFrame comparing total fares for each city type. We used those total fares to calculate average fares per ride and per driver. Then we constructed a line chart to visualize total weekly ride fares between the city types. 
 
 ## Rideshare Data Analysis Results
 Based on the Summary DataFrame, Rural areas take the least amount of rides (125). Suburban areas get five times as many rides at 625 and Urban areas use ride-sharing the most at 1625 rides within. Total drivers showed the same trend. There were far less Rural and Suburban drivers than urban drivers. It is important to note that Rural and Suburban city types had less drivers than total rides while the Urban city type had more total drivers than total rides. There were 2405 registered drivers but only 1625 total rides in urban areas. <br/>
