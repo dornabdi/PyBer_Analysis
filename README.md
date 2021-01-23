@@ -1,36 +1,27 @@
 # PyBer_Analysis
 
 ## Overview of Analysis
-A member of the Colorado Board of Elections gave me a series of tasks to complete an audit of the most recent congressional election to ensure election integrity. The tasks are as follows: <br/>
-1. Total number of votes cast <br/>
-2. A complete list of candidates who received votes <br/>
-3. Total number of votes and percentage each candidate won <br/>
-4. Total number of votes and percentage each county won <br/>
-5. The winner of the election based on popular vote <br/>
-6. The county with the highest voter turnout <br/>
+This assignment analyzed ride-sharing data to find trends and averages in ride fare between city type. The city types considered were urban, suburan, and rural. We created a summary DataFrame comparing total fares for each city type. Then we constructed a line chart to visualize total weekly ride fares between the city types. 
 
 ## Rideshare Data Analysis Results: 
-- There were 369, 711 total votes cast in the election.
-- Jefferson County had 10.5% of the votes with 38,855 votes cast. Denver County had 82.8% of the votes with 306,055 votes cast. Arapahoe County had 6.7% of the votes with 24,801 votes cast. 
-- Denver county had the largest number of votes.
-- Stockham received 23% of the vote and 85,213 votes. Degette Received 73.8% of the vote and 272,892 votes. Doane received 3.1% of the vote and 11,606 votes
-- The winner of the election was Diana DeGette who received 73.8% of the total vote and 272,892 votes out of 369, 711 total votes. 
+Based on the Summary DataFrame, Rural areas take the least amount of rides (125). Suburban areas get five times as many rides at 625 and Urban areas use ride-sharing the most at 1625 rides within. Total drivers showed the same trend. There were far less Rural and Suburban drivers than urban drivers. It is important to note that Rural and Suburban city types had less drivers than total rides while the Urban city type had more total drivers than total rides. There were 2405 registered drivers but only 1625 total rides in urban areas. <br/>
+
+Total Fares between the three city types followed a similar pattern. Rural had the least total fare at $4,327.93. Suburban city types had over four times the total fare at $19,356.33. Urban cities took the top place with almost double the total fares of Urban cities at $39,854.38.<br/>
+
+This pattern changes when we calculated ride and driver averages between the three data types. Average fare per ride AND average fare per driver are higher in rural areas at $34.62 and $55.49, respectively. These averages drop drastically to $24.53 and $16.57 in Urban Areas, respectively. Please view the DataFrame below:
+
+<br/> ![summary_dataframe](summary_dataframe.png)
 
 ## Summary and Recommendations
-The script I wrote for this election audit can be easily edited and used for any other election. I propose that you save and modify this script for future elections to avoid errors and increase audit efficiency. 
+With the DataFrame build and the analysis complete, it is now time to make recommendations to lessen disparities in numbers among the three city types. <br/>
 
-<br/> This script pulls data from the election_data.csv file that was provided to me to perform this analysis. I imported the os and csv modules to locate and read the files I needed. The process I used to extract this data can be used for any other csv file. Be sure to adjust the filename accordingly. Otherwise, you can easily set your file_to_load and file_to_save variables to the relative path that is set on your computer!
-<br/> ![election](election.png)
 
-You can reuse and modify a lot of the beginning script pictured below. For example, you can view your csv file and adjust the row function to match your dataset. You can keep the same for-loop scripting for reading the data and modify the last two lines of code for more relevant parameters for each row/column. See image of script below:
-<br/> ![election1](election1.png)
+1. As mentioned in the analyssi. Urban areas have more total drivers than total rides. This indicates that there is an opportunity for you to build more demand to meet supply. Consider adding a monthly ride subscription program so that consumers feel more committed to your brand and your drivers feel more secure with your company. <br/>
 
-Additionally, looking further into the code. It is evident how the script structure can be modified for your needs. Firstly, the step by step directions in the script comments can make it very easy to adjust code. Secondly, the variables scripted can be adjusted to meet your project's needs. This is true whether you need to add variables or more conditions to your statements. See image of the script below:
-<br/> ![election2](election2.png)
+2.Build discounted pricing for rural and suburban areas to build demand and facilitate buy-in from those consumers. There are significantly less total rides and total rides in rural and suburban city types and average Fares (both per ride and per Driver) are much higher for these areas. Shorten the barrier for consumer entry by offering temporary (1 month) discounted rides so that potential customers can feel the convenience!
 
-## Resources Used
-- Software: Python 3.9.0, Visual Studio Code 1.52.1
-- Data Source: election_results.csv from supervisor.
+3. Consider differing rider behavior and needs. Urban populations typicallly need rides for shorter distances but utilize ride-sharing services more often. This keeps drivers busy and conveniently located. Suburban and Rural areas might need longer distance rides. That should not be a turn off because longer distance rides cost more. Create a marketing campaign to push consumers to select ride-sharing over taxi drivers. Encourage people in suburban and rural areas to participate as drivers to build a larger supply to meet the demand. 
+
 
 
 
