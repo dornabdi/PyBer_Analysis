@@ -3,7 +3,7 @@
 ## Overview of Analysis
 This assignment analyzed ride-sharing data to find trends and averages in ride fare between city type. The city types considered were urban, suburan, and rural. We created a summary DataFrame comparing total fares for each city type. Then we constructed a line chart to visualize total weekly ride fares between the city types. 
 
-## Rideshare Data Analysis Results: 
+## Rideshare Data Analysis Results
 Based on the Summary DataFrame, Rural areas take the least amount of rides (125). Suburban areas get five times as many rides at 625 and Urban areas use ride-sharing the most at 1625 rides within. Total drivers showed the same trend. There were far less Rural and Suburban drivers than urban drivers. It is important to note that Rural and Suburban city types had less drivers than total rides while the Urban city type had more total drivers than total rides. There were 2405 registered drivers but only 1625 total rides in urban areas. <br/>
 
 Total Fares between the three city types followed a similar pattern. Rural had the least total fare at $4,327.93. Suburban city types had over four times the total fare at $19,356.33. Urban cities took the top place with almost double the total fares of Urban cities at $39,854.38.<br/>
